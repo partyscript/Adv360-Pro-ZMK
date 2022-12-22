@@ -2,13 +2,13 @@ macro_back: macro_back{
 compatible = "zmk,behavior-macro";
 label = "macro_back";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&kp O>;
+bindings = <&kt RCTRL>, <&kp O>;
 };
 macro_emacs_meta: macro_emacs_meta{
 compatible = "zmk,behavior-macro";
 label = "macro_emacs_meta";
 #binding-cells = <0>;
-bindings = <&sk LEFT_ALT>, <&kp X>;
+bindings = <&kt RIGHT_ALT>, <&kp X>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
