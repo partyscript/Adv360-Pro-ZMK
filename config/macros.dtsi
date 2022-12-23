@@ -8,7 +8,7 @@ macro_emacs_meta: macro_emacs_meta{
 compatible = "zmk,behavior-macro";
 label = "macro_emacs_meta";
 #binding-cells = <0>;
-bindings = <&kt RIGHT_ALT>, <&kp X>, <&kt RIGHT_ALT>;
+bindings = <&kt LALT>, <&kp X>, <&kt LALT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
